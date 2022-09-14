@@ -8,7 +8,7 @@ const Projects = () => {
           <h2 className="mt-5 mb-4 font-bold text-xl  mx-2 text-left whitespace-nowrap  ">
           {projects.title}
           </h2>
-          <span className="mt-8 h-0.5 w-full bg-black opacity-25 lg:full"></span>
+          <span className="mt-8 h-0.5 w-full bg-black dark:bg-white opacity-25 lg:full"></span>
         </div>
         <p className="text-lg text-slate-500 font-medium mx-2">
         {projects.desc}

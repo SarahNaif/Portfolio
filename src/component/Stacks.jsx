@@ -8,7 +8,7 @@ const Stacks = () => {
           <h2 className="mt-5 mb-4 font-bold text-xl  mx-2 text-left whitespace-nowrap  ">
           {stack.title}
           </h2>
-          <span className="mt-8 h-0.5 w-full bg-black opacity-25 lg:full"></span>
+          <span className="mt-8 h-0.5 w-full bg-black dark:bg-white opacity-25 lg:full"></span>
         </div>
 
         <div className='w-full flex flex-wrap -m-2 mt-2'>
@@ -19,7 +19,7 @@ const Stacks = () => {
                 >
                     
   
-                   <h3 className=''>{item.skill}  </h3> 
+                   <h3 className='dark:text-white'>{item.skill}  </h3> 
                 </span>
                
             ))}
