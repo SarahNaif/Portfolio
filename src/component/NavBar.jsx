@@ -16,7 +16,7 @@ const NavBar = ({toggleTheme, darkMode}) => {
               src="/static/icons/sun.svg"
               width={30}
               height={30}
-              alt="LinkedIn icon"
+              alt="sun icon"
               onClick={toggleTheme}
             />
              : 
@@ -24,7 +24,7 @@ const NavBar = ({toggleTheme, darkMode}) => {
             src="/static/icons/moon.svg"
             width={25}
             height={25}
-            alt="LinkedIn icon"
+            alt="moon icon"
             onClick={toggleTheme}
           />
             
